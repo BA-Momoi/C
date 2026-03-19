@@ -35,9 +35,8 @@ int main(void)
         a[mid]=temp;
     }
     for(int i=0;i<10;i++){
-        printf("a[%d]=%d",i,a[i]);
+        printf("a[%d]=%d ",i+1,a[i]);
     }
     
     return 0;
 }
-   
